@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/****************************
+content-head
+*****************************/
+
+.content-links li {
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+
+.content-head {
+  overflow: auto;
+}
+
+
+/****************************
+content-main
+*****************************/
+
+.content-main {
+  min-height: 494px;
+  margin: 0 auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#boogle-search {
+  width: 500px;
+  height: 40px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+}
+
+/****************************
+content-language
+*****************************/
+
+.country {
+  margin-left: 30px;
+}
+.content-language {
+  background: #DBDBDB;
+  padding: 20px;
+  border-top: 1px #B5B5B5 solid;
+  border-left: 1px #B5B5B5 solid;
+  border-right: 1px #B5B5B5 solid;
+}
+
+/****************************
+content-footer
+*****************************/
+
+.right-col li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.left-col li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.right-col {
+  float: right;
+}
+
+.left-col {
+  display: inline-block;
+  float: left;
+}
+
+.content-footer {
+  overflow: auto;
+  background: #DBDBDB;
+  border: 1px #B5B5B5 solid;
+
+}
